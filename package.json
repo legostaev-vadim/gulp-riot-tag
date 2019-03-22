@@ -1,0 +1,28 @@
+{
+  "name": "gulp-riot-tag",
+  "version": "1.0.2",
+  "description": "Gulp plugin for Riot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "riot",
+    "tag",
+    "compiler",
+    "loader",
+    "autoprefixer",
+    "babel",
+    "gulp"
+  ],
+  "author": {
+    "name": "Legostaev Vadim",
+    "email": "legostaev.vadim@mail.ru"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "riot-compiler": "^3.5.1",
+    "through2": "^2.0.3"
+  }
+}
