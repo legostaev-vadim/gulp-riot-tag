@@ -11,6 +11,5 @@ module.exports = function(options) {
     file.contents = Buffer.from(riot.compile(file.contents.toString(), null, file.path))
 
     callback(null, file)
-    
   })
 }
