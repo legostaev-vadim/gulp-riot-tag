@@ -84,6 +84,9 @@ function tags() {
     .pipe(babel({ presets: ['@babel/env'] }))
     .pipe(gulp.dest('dist'))
 }
+
+const dev = gulp.series(tags)
+gulp.task('default', dev)
 ```
 
 - **[Compiler](https://riot.js.org/guide/compiler/)**
