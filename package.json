@@ -1,6 +1,6 @@
 {
   "name": "gulp-riot-tag",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gulp plugin for Riot",
   "main": "index.js",
   "scripts": {
